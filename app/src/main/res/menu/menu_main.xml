@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.github.pictoora.rxandroidexample.MainActivity">
+    <item
+        android:id="@+id/action_about_me"
+        android:orderInCategory="100"
+        android:title="@string/txt_about_me"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_my_github_page"
+        android:orderInCategory="100"
+        android:title="@string/txt_github_my_page"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_my_twitter_page"
+        android:orderInCategory="100"
+        android:title="@string/txt_twitter"
+        app:showAsAction="always" />
+
+</menu>

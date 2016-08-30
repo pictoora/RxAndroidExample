@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RxAndroidExample</string>
+    <string name="txt_about_me">About me</string>
+    <string name="txt_github_my_page">GitHub</string>
+    <string name="txt_increment">increment</string>
+    <string name="txt_decrement">decrement</string>
+    <string name="txt_github_my_page_url">https://github.com/pictoora</string>
+    <string name="txt_about_alert">Reza N.\nUsing: rxandroid:1.2.1, butterknife:8.3.0 \nSource Code: https://github.com/pictoora\nMy Homepage: https://pictoora.github.io</string>
+    <string name="txt_twitter_my_page_url">https://twitter.com/pictoora</string>
+    <string name="txt_ok">OK</string>
+    <string name="txt_twitter">Twitter</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="io.github.pictoora.rxandroidexample.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txt_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="clip_vertical|center_horizontal"
+            android:text="0"
+            android:textSize="48sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:layout_gravity="left"
+            android:gravity="bottom|right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_increment"
+                style="?android:attr/accessibilityEventTypes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/button"
+                android:textColor="@android:color/white"
+                android:layout_marginRight="@dimen/button_margin"
+                android:text="@string/txt_increment" />
+
+            <Button
+                android:id="@+id/btn_decrement"
+                style="?android:attr/accessibilityEventTypes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:theme="@style/button"
+                android:layout_marginRight="@dimen/button_margin"
+                android:textColor="@android:color/white"
+                android:text="@string/txt_decrement" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
