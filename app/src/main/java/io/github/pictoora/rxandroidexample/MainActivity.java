@@ -22,7 +22,7 @@ import rx.Observer;
 import rx.subjects.PublishSubject;
 
 /**
- * A very very Simple Example for RxAndroid Example
+ * A very very Simple Example
  *  - Rx
  * Created by reza on 25.08.16.
  */
