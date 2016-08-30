@@ -5,7 +5,7 @@
     <string name="txt_increment">increment</string>
     <string name="txt_decrement">decrement</string>
     <string name="txt_github_my_page_url">https://github.com/pictoora</string>
-    <string name="txt_about_alert">Reza N.\nUsing: rxandroid:1.2.1, butterknife:8.3.0 \nSource Code: https://github.com/pictoora\nMy Homepage: https://pictoora.github.io</string>
+    <string name="txt_about_alert">Reza N.\nUsing: rxjava:1.1.6, rxandroid:1.2.1, butterknife:8.3.0 \nSource Code: https://github.com/pictoora\nMy Homepage: https://pictoora.github.io</string>
     <string name="txt_twitter_my_page_url">https://twitter.com/pictoora</string>
     <string name="txt_ok">OK</string>
     <string name="txt_twitter">Twitter</string>
